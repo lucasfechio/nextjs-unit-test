@@ -7,8 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test-home": "npx jest Home.test.tsx",
+    "test-notes": "npx jest NotesForm.test.tsx",
+    "test-todos": "npx jest TodoAndPhotoList.test.tsx"
   },
   "dependencies": {
     "next": "15.1.2",
